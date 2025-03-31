@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendyol Süper Lig Takımları</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <h1>Trendyol Süper Lig Takımları</h1>
+    <p>Takım seçin:</p>
+
+    <div class="container">
+        <div class="left-half" id="left-half"></div>
+        <div class="right-half" id="right-half"></div>
+    </div>
+
+    <div class="button-container">
+        <!-- Trendyol Süper Lig için Takım Butonları -->
+        <button class="team-button" onclick="teamClicked('Galatasaray')">
+            Galatasaray
+        </button>
+        <button class="team-button" onclick="teamClicked('Fenerbahçe')">
+            Fenerbahçe
+        </button>
+        <button class="team-button" onclick="teamClicked('Beşiktaş')">
+            Beşiktaş
+        </button>
+        <button class="team-button" onclick="teamClicked('Trabzonspor')">
+            Trabzonspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Başakşehir')">
+            Başakşehir
+        </button>
+        <button class="team-button" onclick="teamClicked('Alanyaspor')">
+            Alanyaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Konyaspor')">
+            Konyaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Sivasspor')">
+            Sivasspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Antalyaspor')">
+            Antalyaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Hatayspor')">
+            Hatayspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Göztepe')">
+            Göztepe
+        </button>
+        <button class="team-button" onclick="teamClicked('Yeni Malatyaspor')">
+            Yeni Malatyaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Çaykur Rizespor')">
+            Çaykur Rizespor
+        </button>
+        <button class="team-button" onclick="teamClicked('İttifak Holding Konyaspor')">
+            İttifak Holding Konyaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Gaziantep FK')">
+            Gaziantep FK
+        </button>
+        <button class="team-button" onclick="teamClicked('Kasımpaşa')">
+            Kasımpaşa
+        </button>
+        <button class="team-button" onclick="teamClicked('Denizlispor')">
+            Denizlispor
+        </button>
+        <button class="team-button" onclick="teamClicked('Kayserispor')">
+            Kayserispor
+        </button>
+        <button class="team-button" onclick="teamClicked('MKE Ankaragücü')">
+            MKE Ankaragücü
+        </button>
+        <button class="team-button" onclick="teamClicked('Adanaspor')">
+            Adanaspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Bolu')">
+            Boluspor
+        </button>
+        <button class="team-button" onclick="teamClicked('Sakaryaspor')">
+            Sakaryaspor
+        </button>
+    </div>
+
+    <!-- Ses dosyaları -->
+    <audio id="alkisSound" src="musıc/Alkış Ses Efekti.mp3"></audio>
+    <audio id="zortSound" src="musıc/zort ses efekti hd.mp3"></audio>
+    <audio id="marsSound" src="musıc/mars.mp3"></audio>
+
+</body>
+</html>
